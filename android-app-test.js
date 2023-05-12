@@ -12,7 +12,7 @@ const kobitonServerConfig = {
   protocol: 'https',
   host: 'api.kobiton.com',
   auth: `${username}:${apiKey}`,
-  timeout: 60000, // Increase the timeout value to 60 seconds
+  timeout: 600000, // Increase the timeout value to 60 seconds
 }
 
 const desiredCaps = {
