@@ -11,7 +11,8 @@ const appId = process.env.KOBITON_APP_ID
 const kobitonServerConfig = {
   protocol: 'https',
   host: 'api.kobiton.com',
-  auth: `${username}:${apiKey}`
+  auth: `${username}:${apiKey}`,
+  timeout: 60000, // Increase the timeout value to 60 seconds
 }
 
 const desiredCaps = {
