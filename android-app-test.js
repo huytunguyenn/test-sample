@@ -47,7 +47,9 @@ describe('Android App sample', () => {
     })
 
     try {
-      await driver.init(desiredCaps)
+      const data = await driver.init(desiredCaps)
+      const sessionId = data[1].kobitonSessionId;
+      console.log(`SessionID used for the next step ${sessionId}`)
     }
     catch (err) {
       if (err.data) {
