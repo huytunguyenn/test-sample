@@ -4,8 +4,7 @@
   "description": "This a sample test",
   "scripts": {
     "test": "mocha --require babel-core/register --no-timeouts *.js",
-    "android-app-test": "mocha --require babel-core/register --no-timeouts android-app-test.js",
-    "start": "KOBITON_APP_ID=kobiton-store:v620176 KOBITON_USERNAME=kobitonadmin+businesscloud KOBITON_API_KEY=884f4fc8-3fbe-42d0-90f3-3fa706d6554a npm run android-app-test"
+    "android-app-test": "mocha --require babel-core/register --no-timeouts android-app-test.js"
   },
   "keywords": [
     "kobiton",
@@ -14,7 +13,7 @@
     "webdriver",
     "selenium"
   ],
-  "author": "Khanh Do",
+  "author": "Huy Tu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kobiton/samples/issues"
